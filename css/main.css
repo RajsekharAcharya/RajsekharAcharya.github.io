@@ -1085,7 +1085,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 header {
 	position: fixed;
-	width: 100%;
+	width: 65%;
 	min-height: 66px;
 	z-index: 600;
 }
@@ -1095,17 +1095,17 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	/* left: -56px; */
 	top: 0;
 }
 header .logo {
 	float: left;
 	margin-left: 20px;
-	margin-right: 50px;
+	margin-right: 10px;
 	margin-top: 25px;
 	position: relative;
 }
@@ -1229,7 +1229,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
